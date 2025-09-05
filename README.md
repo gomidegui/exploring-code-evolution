@@ -1,5 +1,13 @@
 # Explorando evolução de código
 
+//GUILHERME GOMES PALAHARES GOMIDE//
+
+MATRÍCULA: 2021090048
+
+RELATÓRIO NO FINAL DO ARQUIVO
+
+
+
 Neste exercício, iremos explorar a evolução de código em sistemas reais.
 
 Iremos utilizar a ferramenta [GitEvo](https://github.com/andrehora/gitevo).
@@ -86,4 +94,21 @@ Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 3. Explicação: <EXPLICACAO_AQUI>
 
 
+/////////// RELATÓRIO ////////////////////////
 
+
+
+
+Repositório analisado
+[jenkinsci/configuration-as-code-plugin](https://github.com/jenkinsci/configuration-as-code-plugin)
+
+Gráfico selecionado — Classes e Interfaces (2020–2025)
+![Classes e Interfaces](report/classes-interfaces.png)
+
+Explicação
+O gráfico “Classes, interfaces and records” mostra a evolução das declarações de classes e interfaces no projeto entre 2020 e 2025.  
+
+A quantidade de classes cresceu de cerca de 200 em 2020 para quase 250 em 2025, revelando uma expansão contínua do código, com a introdução de novas funcionalidades e melhorias incrementais.  
+Já o número de interfaces permaneceu praticamente estável, em torno de 10, o que indica que a arquitetura do sistema foi mantida, sem necessidade de criar novos contratos ou abstrações.  
+
+Esse padrão sugere que o projeto está, pelo menos neste aspecto, condizente com boas práticas, já que a evolução acontece principalmente pela adição de classes, enquanto a base arquitetural permanece sólida e estável.
